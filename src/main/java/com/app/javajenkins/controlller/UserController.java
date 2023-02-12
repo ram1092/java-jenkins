@@ -8,6 +8,11 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping("/users")
 public class UserController {
 
+    @GetMapping("/")
+    public  String getSimpleMsg(){
+        return "Welcome in Java Integration With jenkins Project Simple Msg...";
+    }
+
     @GetMapping("/msg")
     public  String getMsg(){
         return "Welcome in Java Integration With jenkins Project...";
