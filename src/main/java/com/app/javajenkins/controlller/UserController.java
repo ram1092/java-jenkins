@@ -10,6 +10,6 @@ public class UserController {
 
     @GetMapping("/msg")
     public  String getMsg(){
-        return "Welcome in Java Integration With jenkins Project..";
+        return "Welcome in Java Integration With jenkins Project...";
     }
 }
